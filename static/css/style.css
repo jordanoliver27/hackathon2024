@@ -1,0 +1,80 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+    padding: 20px; /* Padding around the content */
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #4CAF50; /* Green color for the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+/* Form styles */
+form {
+    display: flex; /* Flexbox for aligning items */
+    justify-content: center; /* Center items horizontally */
+    margin-bottom: 20px; /* Space below the form */
+}
+
+/* Input field styles */
+input[type="text"] {
+    padding: 10px; /* Padding inside the input */
+    width: 300px; /* Fixed width */
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Results section styles */
+#results {
+    margin-top: 20px; /* Space above results */
+    padding: 10px; /* Padding inside the results section */
+    background-color: white; /* White background for results */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Official's info styles */
+#results div {
+    margin-bottom: 15px; /* Space between each official */
+    padding: 10px; /* Padding inside each official's info */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color for each official */
+}
+
+#results h2 {
+    margin-bottom: 5px; /* Space below each official's name */
+    color: #333; /* Dark text color */
+}
+
+#results p {
+    margin: 5px 0; /* Space above and below each paragraph */
+}
